@@ -12,31 +12,24 @@ package by.gsu.epamlab;
             this.transport = transport;
             this.days = days;
         }
-
         public String getAccount() {
             return account;
         }
-
         public void setAccount(String account) {
             this.account = account;
         }
-
         public int getTransport() {
             return transport;
         }
-
         public void setTransport(int transport) {
             this.transport = transport;
         }
-
         public int getDays() {
             return days;
         }
-
         public void setDays(int days) {
             this.days = days;
         }
-
         public int getTotal() {
             return transport + DAILY_RATE * days;  // returns the total business trip expenses in BYN
         }
