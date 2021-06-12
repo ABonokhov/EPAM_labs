@@ -17,11 +17,12 @@ public class Runner {
                 businessTrip.show(); // Output the array content to the console, using show( ) method
                 if (businessTrip.getTotal() > maxTotal.getTotal()) {
                     maxTotal = businessTrip;
-                    maxTotal.show();  // Output the business trip with maximum cost using show() method
+                   
                 }
             }
         }
         
+        maxTotal.show();  // Output the business trip with maximum cost using show() method
         businessTrips[businessTrips.length - 1].setExpenses(1649); // Update  transportation expenses for the last object of the array
         System.out.println("Duration=" + (businessTrips[0].getDaysNumber() + businessTrips[1].getDaysNumber())); // Output the total duration of two initial business trips by the single operator
 
