@@ -37,7 +37,7 @@ package by.gsu.epamlab;
             return account + ";" + printRuble(expenses) + ";" + daysNumber + ";" + printRuble(getTotal());
         }
 
-        static String printRuble(int sum) {       // Method for formatting money
+         private static String printRuble(int sum) {       // Method for formatting money
             return String.format("%d.%02d", sum / 100, sum % 100);
         }
     }
