@@ -16,9 +16,9 @@ package by.gsu.epamlab;
             this.daysNumber= daysNumber;
         }
 
-        public void setExpenses(int expenses) {
+        public void setExpenses(int expenses) {  // getters and setters
             this.expenses = expenses;
-        } // getters and setters
+        } 
 
         public int getDaysNumber() {
             return daysNumber;
