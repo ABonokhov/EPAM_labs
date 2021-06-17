@@ -1,7 +1,7 @@
 package by.gsu.epamlab;
 public class Subject {
     private String name;
-    private Material material; //  //  using has-a relationship
+    private Material material; // using has-a relationship
     private double volume;
 
     public Subject(){
