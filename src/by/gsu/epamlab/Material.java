@@ -11,12 +11,8 @@ public class Material {
         this.name = name;
         this.density = density;
     }
-
-    public String getName() {   // getters
-        return name;
-    }
-
-    public double getDensity() {
+    
+    public double getDensity() {  //getter
         return density;
     }
 
