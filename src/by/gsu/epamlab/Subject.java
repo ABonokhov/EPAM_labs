@@ -8,7 +8,6 @@ public class Subject {
         this(null,null,0);
     } //no-arg constructor;
 
-
     public Subject(String name, Material material, double volume){ // parameterized constructor
         this.name = name;
         this.material = material;
