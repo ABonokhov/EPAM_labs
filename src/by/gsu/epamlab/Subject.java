@@ -15,28 +15,8 @@ public class Subject {
         this.volume=volume;
     }
 
-    public String getName() {
-        return name;
-    }  // getters/setters
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public Material getMaterial() {
-        return material;
-    }
-
-    public void setMaterial(Material material) {
+    public void setMaterial(Material material) {    // getters/setters
         this.material = material;
-    }
-
-    public double getVolume() {
-        return volume;
-    }
-
-    public void setVolume(double volume) {
-        this.volume = volume;
     }
 
     public double getMass(){  // returns the subject mass
