@@ -38,7 +38,3 @@ public class Purchase implements Comparable<Purchase> {
         return name + ";" + printRuble(price) + ";" + number + ";" + percent + ";" + weekDay;
     }
 }
-
-
-
-
