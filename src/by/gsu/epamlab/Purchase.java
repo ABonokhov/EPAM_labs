@@ -18,7 +18,7 @@ public class Purchase implements Comparable<Purchase> {
     }
 
     public Purchase(int unitsNumber, double percent, int day) {
-        this();
+        this(0,0,null);
     }
 
     public WeekDay getWeekDay() {
